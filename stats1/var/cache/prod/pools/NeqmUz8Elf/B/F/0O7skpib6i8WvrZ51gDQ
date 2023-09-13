@@ -1,0 +1,154 @@
+<?php //Mautic.FormBundle.Entity.Form
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        (($f = &\Symfony\Component\VarExporter\Internal\Registry::$factories)['Symfony\\Component\\Validator\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::f('Symfony\\Component\\Validator\\Mapping\\ClassMetadata'))(),
+        ($f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::f('Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'))(),
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Validator\\Constraints\\NotBlank'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\NotBlank')),
+        $f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'](),
+        clone $p['Symfony\\Component\\Validator\\Constraints\\NotBlank'],
+        clone $p['Symfony\\Component\\Validator\\Constraints\\NotBlank'],
+        clone ($p['Symfony\\Component\\Validator\\Constraints\\Url'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\Url')),
+        $f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'](),
+        clone ($p['Symfony\\Component\\Validator\\Constraints\\Choice'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\Choice')),
+        $f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'](),
+        clone ($p['Symfony\\Component\\Validator\\Constraints\\GreaterThan'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\GreaterThan')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'Mautic\\FormBundle\\Entity\\Form',
+                'name',
+                3 => 'postActionProperty',
+                7 => 'formType',
+                9 => 'progressiveProfilingLimit',
+            ],
+            'defaultGroup' => [
+                'Form',
+            ],
+            'members' => [
+                [
+                    'name' => [
+                        $o[1],
+                    ],
+                    'postActionProperty' => [
+                        $o[3],
+                    ],
+                    'formType' => [
+                        $o[7],
+                    ],
+                    'progressiveProfilingLimit' => [
+                        $o[9],
+                    ],
+                ],
+            ],
+            'properties' => [
+                [
+                    'name' => $o[1],
+                    'postActionProperty' => $o[3],
+                    'formType' => $o[7],
+                    'progressiveProfilingLimit' => $o[9],
+                ],
+            ],
+            'class' => [
+                1 => 'Mautic\\FormBundle\\Entity\\Form',
+                3 => 'Mautic\\FormBundle\\Entity\\Form',
+                7 => 'Mautic\\FormBundle\\Entity\\Form',
+                9 => 'Mautic\\FormBundle\\Entity\\Form',
+            ],
+            'property' => [
+                1 => 'name',
+                3 => 'postActionProperty',
+                7 => 'formType',
+                9 => 'progressiveProfilingLimit',
+            ],
+            'constraints' => [
+                1 => [
+                    $o[2],
+                ],
+                3 => [
+                    $o[4],
+                    $o[5],
+                    $o[6],
+                ],
+                7 => [
+                    $o[8],
+                ],
+                9 => [
+                    $o[10],
+                ],
+            ],
+            'constraintsByGroup' => [
+                1 => [
+                    'form' => [
+                        $o[2],
+                    ],
+                ],
+                3 => [
+                    'messageRequired' => [
+                        $o[4],
+                    ],
+                    'urlRequired' => [
+                        $o[5],
+                    ],
+                    'urlRequiredPassTwo' => [
+                        $o[6],
+                    ],
+                ],
+                7 => [
+                    'Default' => [
+                        $o[8],
+                    ],
+                    'Form' => [
+                        $o[8],
+                    ],
+                ],
+                9 => [
+                    'progressiveProfilingLimit' => [
+                        $o[10],
+                    ],
+                ],
+            ],
+            'message' => [
+                2 => 'mautic.core.name.required',
+                4 => 'mautic.form.form.postactionproperty_message.notblank',
+                'mautic.form.form.postactionproperty_redirect.notblank',
+                'mautic.form.form.postactionproperty_redirect.notblank',
+                10 => 'mautic.form.form.progressive_profiling_limit.error',
+            ],
+            'groups' => [
+                2 => [
+                    'form',
+                ],
+                4 => [
+                    'messageRequired',
+                ],
+                [
+                    'urlRequired',
+                ],
+                [
+                    'urlRequiredPassTwo',
+                ],
+                8 => [
+                    'Default',
+                    'Form',
+                ],
+                10 => [
+                    'progressiveProfilingLimit',
+                ],
+            ],
+            'choices' => [
+                8 => [
+                    'standalone',
+                    'campaign',
+                ],
+            ],
+            'value' => [
+                10 => 0,
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

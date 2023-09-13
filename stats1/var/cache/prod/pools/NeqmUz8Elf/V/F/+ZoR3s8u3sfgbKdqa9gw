@@ -1,0 +1,65 @@
+<?php //Mautic.DashboardBundle.Entity.Widget
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        (($f = &\Symfony\Component\VarExporter\Internal\Registry::$factories)['Symfony\\Component\\Validator\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::f('Symfony\\Component\\Validator\\Mapping\\ClassMetadata'))(),
+        ($f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::f('Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'))(),
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Validator\\Constraints\\NotBlank'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\NotBlank')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'Mautic\\DashboardBundle\\Entity\\Widget',
+                'type',
+            ],
+            'defaultGroup' => [
+                'Widget',
+            ],
+            'members' => [
+                [
+                    'type' => [
+                        $o[1],
+                    ],
+                ],
+            ],
+            'properties' => [
+                [
+                    'type' => $o[1],
+                ],
+            ],
+            'class' => [
+                1 => 'Mautic\\DashboardBundle\\Entity\\Widget',
+            ],
+            'property' => [
+                1 => 'type',
+            ],
+            'constraints' => [
+                1 => [
+                    $o[2],
+                ],
+            ],
+            'constraintsByGroup' => [
+                1 => [
+                    'Default' => [
+                        $o[2],
+                    ],
+                    'Widget' => [
+                        $o[2],
+                    ],
+                ],
+            ],
+            'message' => [
+                2 => 'mautic.core.type.required',
+            ],
+            'groups' => [
+                2 => [
+                    'Default',
+                    'Widget',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

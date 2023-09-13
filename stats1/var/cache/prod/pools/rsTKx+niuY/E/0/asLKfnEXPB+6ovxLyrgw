@@ -1,0 +1,3 @@
+<?php //MauticPlugin%255CMauticTagManagerBundle%255CController%255CTagController%2523indexAction
+
+return [PHP_INT_MAX, []];

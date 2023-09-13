@@ -1,0 +1,3 @@
+<?php //Mautic%255CCampaignBundle%255CController%255CCampaignController
+
+return [PHP_INT_MAX, []];

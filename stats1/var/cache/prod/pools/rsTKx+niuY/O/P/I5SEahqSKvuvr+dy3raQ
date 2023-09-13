@@ -1,0 +1,3 @@
+<?php //MauticPlugin%255CMauticFocusBundle%255CController%255CFocusController
+
+return [PHP_INT_MAX, []];

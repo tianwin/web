@@ -1,0 +1,3 @@
+<?php //Mautic%255CChannelBundle%255CController%255CMessageController
+
+return [PHP_INT_MAX, []];

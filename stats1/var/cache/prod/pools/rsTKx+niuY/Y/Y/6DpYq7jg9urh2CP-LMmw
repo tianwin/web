@@ -1,0 +1,3 @@
+<?php //MauticPlugin%255CMauticSocialBundle%255CController%255CMonitoringController
+
+return [PHP_INT_MAX, []];

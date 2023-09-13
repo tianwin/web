@@ -1,0 +1,3 @@
+<?php //Mautic%255CCoreBundle%255CController%255CAjaxController%2523executeAjaxAction
+
+return [PHP_INT_MAX, []];

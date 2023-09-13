@@ -1,0 +1,254 @@
+<?php //Mautic.UserBundle.Entity.User
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        (($f = &\Symfony\Component\VarExporter\Internal\Registry::$factories)['Symfony\\Component\\Validator\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::f('Symfony\\Component\\Validator\\Mapping\\ClassMetadata'))(),
+        ($f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::f('Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'))(),
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Validator\\Constraints\\NotBlank'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\NotBlank')),
+        $f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'](),
+        clone $p['Symfony\\Component\\Validator\\Constraints\\NotBlank'],
+        $f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'](),
+        clone $p['Symfony\\Component\\Validator\\Constraints\\NotBlank'],
+        $f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'](),
+        clone $p['Symfony\\Component\\Validator\\Constraints\\NotBlank'],
+        clone ($p['Symfony\\Component\\Validator\\Constraints\\Email'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\Email')),
+        $f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'](),
+        clone $p['Symfony\\Component\\Validator\\Constraints\\NotBlank'],
+        $f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'](),
+        clone $p['Symfony\\Component\\Validator\\Constraints\\NotBlank'],
+        clone ($p['Symfony\\Component\\Validator\\Constraints\\Length'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\Length')),
+        clone ($p['Symfony\\Component\\Validator\\Constraints\\GroupSequence'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\GroupSequence')),
+        clone ($p['Symfony\\Bridge\\Doctrine\\Validator\\Constraints\\UniqueEntity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Bridge\\Doctrine\\Validator\\Constraints\\UniqueEntity')),
+        clone $p['Symfony\\Bridge\\Doctrine\\Validator\\Constraints\\UniqueEntity'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'Mautic\\UserBundle\\Entity\\User',
+                'username',
+                3 => 'firstName',
+                5 => 'lastName',
+                7 => 'email',
+                10 => 'role',
+                12 => 'plainPassword',
+            ],
+            'defaultGroup' => [
+                'User',
+            ],
+            'members' => [
+                [
+                    'username' => [
+                        $o[1],
+                    ],
+                    'firstName' => [
+                        $o[3],
+                    ],
+                    'lastName' => [
+                        $o[5],
+                    ],
+                    'email' => [
+                        $o[7],
+                    ],
+                    'role' => [
+                        $o[10],
+                    ],
+                    'plainPassword' => [
+                        $o[12],
+                    ],
+                ],
+            ],
+            'properties' => [
+                [
+                    'username' => $o[1],
+                    'firstName' => $o[3],
+                    'lastName' => $o[5],
+                    'email' => $o[7],
+                    'role' => $o[10],
+                    'plainPassword' => $o[12],
+                ],
+            ],
+            'groupSequence' => [
+                $o[15],
+            ],
+            'constraints' => [
+                [
+                    $o[16],
+                    $o[17],
+                ],
+                [
+                    $o[2],
+                ],
+                3 => [
+                    $o[4],
+                ],
+                5 => [
+                    $o[6],
+                ],
+                7 => [
+                    $o[8],
+                    $o[9],
+                ],
+                10 => [
+                    $o[11],
+                ],
+                12 => [
+                    $o[13],
+                    $o[14],
+                ],
+            ],
+            'constraintsByGroup' => [
+                [
+                    'Default' => [
+                        $o[16],
+                        $o[17],
+                    ],
+                    'User' => [
+                        $o[16],
+                        $o[17],
+                    ],
+                ],
+                [
+                    'Default' => [
+                        $o[2],
+                    ],
+                    'User' => [
+                        $o[2],
+                    ],
+                ],
+                3 => [
+                    'Default' => [
+                        $o[4],
+                    ],
+                    'User' => [
+                        $o[4],
+                    ],
+                ],
+                5 => [
+                    'Default' => [
+                        $o[6],
+                    ],
+                    'User' => [
+                        $o[6],
+                    ],
+                ],
+                7 => [
+                    'Default' => [
+                        $o[8],
+                    ],
+                    'User' => [
+                        $o[8],
+                    ],
+                    'SecondPass' => [
+                        $o[9],
+                    ],
+                ],
+                10 => [
+                    'Default' => [
+                        $o[11],
+                    ],
+                    'User' => [
+                        $o[11],
+                    ],
+                ],
+                12 => [
+                    'CheckPassword' => [
+                        $o[13],
+                        $o[14],
+                    ],
+                ],
+            ],
+            'class' => [
+                1 => 'Mautic\\UserBundle\\Entity\\User',
+                3 => 'Mautic\\UserBundle\\Entity\\User',
+                5 => 'Mautic\\UserBundle\\Entity\\User',
+                7 => 'Mautic\\UserBundle\\Entity\\User',
+                10 => 'Mautic\\UserBundle\\Entity\\User',
+                12 => 'Mautic\\UserBundle\\Entity\\User',
+            ],
+            'property' => [
+                1 => 'username',
+                3 => 'firstName',
+                5 => 'lastName',
+                7 => 'email',
+                10 => 'role',
+                12 => 'plainPassword',
+            ],
+            'message' => [
+                2 => 'mautic.user.user.username.notblank',
+                4 => 'mautic.user.user.firstname.notblank',
+                6 => 'mautic.user.user.lastname.notblank',
+                8 => 'mautic.user.user.email.valid',
+                'mautic.user.user.email.valid',
+                11 => 'mautic.user.user.role.notblank',
+                13 => 'mautic.user.user.password.notblank',
+                16 => 'mautic.user.user.username.unique',
+                'mautic.user.user.email.unique',
+            ],
+            'groups' => [
+                2 => [
+                    'Default',
+                    'User',
+                ],
+                4 => [
+                    'Default',
+                    'User',
+                ],
+                6 => [
+                    'Default',
+                    'User',
+                ],
+                8 => [
+                    'Default',
+                    'User',
+                ],
+                [
+                    'SecondPass',
+                ],
+                11 => [
+                    'Default',
+                    'User',
+                ],
+                13 => [
+                    'CheckPassword',
+                ],
+                [
+                    'CheckPassword',
+                ],
+                [
+                    'User',
+                    'SecondPass',
+                    'CheckPassword',
+                ],
+                [
+                    'Default',
+                    'User',
+                ],
+                [
+                    'Default',
+                    'User',
+                ],
+            ],
+            'minMessage' => [
+                14 => 'mautic.user.user.password.minlength',
+            ],
+            'min' => [
+                14 => 6,
+            ],
+            'repositoryMethod' => [
+                16 => 'checkUniqueUsernameEmail',
+                'checkUniqueUsernameEmail',
+            ],
+            'fields' => [
+                16 => [
+                    'username',
+                ],
+                [
+                    'email',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

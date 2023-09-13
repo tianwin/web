@@ -1,0 +1,3 @@
+<?php //Mautic%255CCoreBundle%255CController%255CDefaultController%2523globalSearchAction
+
+return [PHP_INT_MAX, []];
