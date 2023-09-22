@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Counter</title>
+</head>
+<body>
+    <h1>Welcome to the Access Counter</h1>
+    <p>This webpage will count the number of times it has been accessed.</p>
+    <p>Access Count: <span id="accessCount">0</span></p>
+
+    <script>
+        // Function to increment and display the access count
+        function updateAccessCount() {
+            // Check if the access count is stored in local storage
+            if (localStorage.getItem("accessCount") === null) {
+                // If not, initialize it to 1
+                localStorage.setItem("accessCount", "1");
+            } else {
+                // If it exists, increment it by 1
+                var currentCount = parseInt(localStorage.getItem("accessCount"));
+                currentCount++;
+                localStorage.setItem("accessCount", currentCount.toString());
+            }
+
+            // Display the access count in the "accessCount" span
+            document.getElementById("accessCount").textContent = localStorage.getItem("accessCount");
+        }
+
+        // Call the updateAccessCount function when the page loads
+        updateAccessCount();
+    </script>
+</body>
+</html>

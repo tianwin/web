@@ -1,18 +1,3 @@
-
-
-
-
-// Get the toggle button element
-const toggleButton = document.getElementById('toggleButton');
-
-// Function to toggle inverted colors
-function toggleInvertedColors() {
-    document.body.classList.toggle('inverted');
-}
-
-// Add a click event listener to the button
-toggleButton.addEventListener('click', toggleInvertedColors);
-
 // Function to increment and display the access count
 function updateAccessCount() {
     // Check if the access count is stored in local storage
@@ -20,7 +5,7 @@ function updateAccessCount() {
         // If not, initialize it to 1
         localStorage.setItem("accessCount", "1");
     } else {
-        // If it exists, increment it by 1
+        // If it exists, get the current count, increment it by 1, and store it
         var currentCount = parseInt(localStorage.getItem("accessCount"));
         currentCount++;
         localStorage.setItem("accessCount", currentCount.toString());
@@ -31,5 +16,4 @@ function updateAccessCount() {
 }
 
 // Call the updateAccessCount function when the page loads
-updateAccessCount();
-
+window.onload = updateAccessCount;
