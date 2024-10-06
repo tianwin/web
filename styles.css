@@ -1,82 +1,206 @@
-
-body {
-    font-family:verdana;
-    /* background-image: ; */
-    background-color: #f5f5f5;
-    color: #333;
-
-}
-
-
-
-body.inverted {
-    /* filter: invert(100%); */
-    background-color: #fff;
-    color: #000;
-}
-
-ul {
-    list-style-type: none;
+/* CSS Reset */
+* {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #004d99;
-    max-width:1357px;
+    box-sizing: border-box;
 }
 
-li {
-    float: left;
+/* Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
 }
 
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-list li {
+    position: relative;
+}
+
+.nav-list a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: grey;
-}
-
-li.dropdown {
-    display: inline-block;
+.nav-list a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #575757;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
-    min-width: 160px;   
+    background-color: #444;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
 }
 
-.dropdown-content a {
-    color: black;
+.dropdown-content li a {
     padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    
+    color: #fff;
+}
+
+.dropdown-content li a:hover {
+    background-color: #575757;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
-    opacity: .8;
 }
 
-td {
-    padding: 5px;
-    text-align: left;
-    width: 500px;
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 80px auto 0 auto;
+    padding: 20px;
 }
 
-tr{
-    padding: 0px;
-    text-align: top;
-    background-color:#ffffff
+/* Section Styles */
+section {
+    margin-bottom: 60px;
 }
 
-img:hover {
-  opacity: .6;
+section h2 {
+    color: #222;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 10px;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+section p {
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+/* About Me Styles */
+figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+figure img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font-style: italic;
+    color: #666;
+}
+
+/* Experience Styles */
+.experience-item {
+    margin-bottom: 40px;
+}
+
+.experience-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.experience-item p em {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.experience-item ul {
+    margin-top: 10px;
+}
+
+/* Project Styles */
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.project p em {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.project p {
+    margin-top: 10px;
+}
+
+/* Skills Styles */
+#skills ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+/* Responsive Layout */
+@media (min-width: 768px) {
+    /* Adjust main content padding */
+    main {
+        padding: 40px;
+    }
+
+    /* Flex layout for sections */
+    #about-me, #ongoing-projects, #experience, #projects, #skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #about-me figure, #about-me p {
+        flex: 1 1 45%;
+    }
+
+    #about-me figure {
+        margin-right: 20px;
+    }
+
+    #ongoing-projects ul, #skills ul {
+        columns: 2;
+    }
 }
