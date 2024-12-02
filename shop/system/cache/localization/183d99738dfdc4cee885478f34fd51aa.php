@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:3:{s:13:"heading_title";s:14:"I più venduti";s:16:"heading_subtitle";s:21:"Guarda i più venduti";s:10:"text_stars";s:15:"%s su 5 Stelle!";}

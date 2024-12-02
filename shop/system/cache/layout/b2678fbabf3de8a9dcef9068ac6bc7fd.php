@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#s:32:"blocks/fast_checkout_summary.tpl";

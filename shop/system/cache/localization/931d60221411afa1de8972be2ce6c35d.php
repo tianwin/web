@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:5:{s:13:"heading_title";s:25:"Iscriviti alla Newsletter";s:11:"text_signup";s:74:"Iscriviti alla nostra newsletter &amp; puoi ottenere interessanti offerte.";s:12:"text_sign_in";s:9:"Iscriviti";s:14:"text_subscribe";s:22:"Sottoscrivi Newsletter";s:16:"button_subscribe";s:11:"sottoscrivi";}

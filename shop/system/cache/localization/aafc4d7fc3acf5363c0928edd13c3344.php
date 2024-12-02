@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:2:{s:16:"text_footer_left";s:105:" AbanteCart is a trademark of Belavier Commerce LLC<br /> Copyright &copy; 2009 - %s All Rights Reserved ";s:11:"text_footer";s:75:"<a href="http://www.abantecart.com" target="_blank">AbanteCart</a> Version ";}

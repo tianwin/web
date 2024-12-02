@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:13:{i:0;s:10:"incomplete";i:1;s:7:"pending";i:2;s:10:"processing";i:3;s:7:"shipped";i:7;s:8:"canceled";i:5;s:9:"completed";i:8;s:6:"denied";i:9;s:17:"canceled_reversal";i:10;s:6:"failed";i:11;s:8:"refunded";i:12;s:8:"reversed";i:13;s:10:"chargeback";i:14;s:20:"canceled_by_customer";}

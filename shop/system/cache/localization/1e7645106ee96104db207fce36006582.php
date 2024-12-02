@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:3:{s:13:"heading_title";s:5:"Cerca";s:12:"text_keyword";s:19:"Cerca parole chiavi";s:13:"text_advanced";s:14:"Cerca avanzato";}

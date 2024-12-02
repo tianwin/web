@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#s:35:"blocks/newsletter_signup_footer.tpl";

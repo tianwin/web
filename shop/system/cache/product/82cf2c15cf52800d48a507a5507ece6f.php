@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#d:0;

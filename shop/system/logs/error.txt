@@ -1,0 +1,135 @@
+2023-11-08 19:05:15 - App Error:  AbanteCart core v.1.3.1 Cannot establish database connection to tianwing_ab1 using tianwing_ab1@localhost
+Trace:
+	#0 /home/tianwing/public_html/shop/core/database/amysqli.php on line 52
+	#1 /home/tianwing/public_html/shop/core/lib/db.php on line 52
+	#2 /home/tianwing/public_html/shop/core/init.php on line 342
+	#3 /home/tianwing/public_html/shop/index.php on line 56
+
+2024-04-05 14:59:48 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+
+2024-04-17 14:15:41 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+
+2024-04-25 23:17:53 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+
+2024-05-01 2:31:58 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+
+2024-05-12 14:09:57 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+
+2024-06-12 1:36:53 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+
+2024-06-13 15:03:37 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+
+2024-06-17 2:05:47 - App Error:  AbanteCart core v.1.3.1 FastCheckout Error: No shipping option offered to the customer at checkout. Probably, need to check shipping setting!
+Trace:
+	#0 /home/tianwing/public_html/shop/extensions/fast_checkout/storefront/controller/responses/checkout/pay.php on line 2047
+	#1 /home/tianwing/public_html/shop/extensions/fast_checkout/storefront/controller/responses/checkout/pay.php on line 1811
+	#2 /home/tianwing/public_html/shop/extensions/fast_checkout/storefront/controller/responses/checkout/pay.php on line 313
+	#3 /home/tianwing/public_html/shop/core/engine/dispatcher.php on line 287
+	#4 /home/tianwing/public_html/shop/core/engine/response.php on line 87
+
+2024-07-30 12:46:21 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+
+2024-08-14 15:41:38 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+
+2024-09-22 13:44:26 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+
+2024-10-18 21:13:45 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+
+2024-11-18 7:28:27 - App Error:  AbanteCart core v.1.3.1 Error: Error in data of page with controller: 'pages/content/content'. Please check for key_value present where key_param was set.
+Requested URL: http://tianwin.georgetown.domains/shop/index.php?rt=content/content&amp;content_id=
+Referer URL: 
+Trace:
+	#0 /home/tianwing/public_html/shop/core/engine/layout.php on line 217
+	#1 /home/tianwing/public_html/shop/core/engine/layout.php on line 119
+	#2 /home/tianwing/public_html/shop/core/engine/page.php on line 101
+	#3 /home/tianwing/public_html/shop/core/engine/router.php on line 193
+	#4 /home/tianwing/public_html/shop/core/engine/router.php on line 86
+

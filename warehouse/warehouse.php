@@ -1,9 +1,9 @@
 <?php
+ob_start();
 session_start();
-
 // Check if the user is logged in
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header('Location: index.html');
+    header("Location: index.html");
     exit();
 }
 ?>
@@ -12,39 +12,28 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Warehouse | Frank Dong's Toolbox</title>
-    <link rel="stylesheet" href="../styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warehouse | Manage Categories and Notes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <nav>
-        <ul class="nav-list">
-            <li><a href="../index.html"><strong>Home</strong></a></li>
-            <li><a href="../experience.html"><strong>CV</strong></a></li>
-            <li><a href="../#contact"><strong>Contact</strong></a></li>
-            <li><a href="logout.php"><strong>Logout</strong></a></li>
-        </ul>
-    </nav>
+    <?php include 'includes/header.php'; ?>
 
-    <!-- Main Content -->
-    <main>
-        <h1>Welcome to the Warehouse</h1>
-        <p>Here are my personal tools and resources:</p>
-        <ul>
-            <li><a href="https://github.com/tianwin" target="_blank"><strong>GitHub Repository</strong></a></li>
-            <li><a href="https://www.kaggle.com/" target="_blank"><strong>Kaggle</strong></a></li>
-            <li><a href="https://colab.research.google.com/" target="_blank"><strong>Google Colab</strong></a></li>
-            <li><a href="https://www.tableau.com/" target="_blank"><strong>Tableau</strong></a></li>
-            <li><a href="https://spark.apache.org/" target="_blank"><strong>Apache Spark</strong></a></li>
-            <!-- Add more resources as needed -->
-        </ul>
-    </main>
+    <div class="container">
+        <h1>Warehouse</h1>
+        <h2>Manage Categories and Notes</h2>
+        <div>
+            <input type="text" id="category-input" placeholder="Add a new category..." class="category-input">
+            <button id="add-category-btn" class="add-btn">Add Category</button>
+        </div>
+        <div id="categories-list"></div>
+    </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Frank Dong. All Rights Reserved.</p>
-    </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
+<?php
+ob_end_flush();
+?>
